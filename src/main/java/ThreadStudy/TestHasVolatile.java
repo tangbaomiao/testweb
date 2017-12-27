@@ -3,7 +3,7 @@ package ThreadStudy;
 /**
  * Created by tangyaru on 2017/12/25.
  */
-public class Test {
+public class TestHasVolatile {
 
     private static volatile boolean bChanged;
 
@@ -14,7 +14,7 @@ public class Test {
             @Override
             public void run() {
                 for (;;) {
-                    if (bChanged == !bChanged) {
+                    if (bChanged == !bChanged) { //是不是bChanged为false才可以到if里面？
 
                         System.out.println("AAA");
                         System.out.println("!=");
