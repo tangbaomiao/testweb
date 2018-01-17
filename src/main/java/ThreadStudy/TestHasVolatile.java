@@ -1,7 +1,7 @@
 package ThreadStudy;
 
 /**
- * Created by tangyaru on 2017/12/25.
+ * Created by tangyaru11 on 2017/12/25.
  */
 public class TestHasVolatile {
 
